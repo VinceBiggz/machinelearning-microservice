@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=predictions .
+docker build -t --tag=predictions .
 
 # Step 2: 
 # List docker images
