@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="vincebiggz/predictions"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker tag predictions vincebiggz/predictions:v1.0.0
 
 # Step 3:
 # Push image to a docker repository
+docker push vincebiggz/predictions:v1.0.0
