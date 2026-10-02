@@ -51,3 +51,7 @@ source .devops/bin/activate
 
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/VinceBiggz/machinelearning-microservice/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/VinceBiggz/machinelearning-microservice/tree/main)
+
+---
+
+© 2026 Intellify IT. All rights reserved.
